@@ -1,0 +1,24 @@
+.todo-div {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 3fr 1fr;
+    text-align: center;
+  }
+.todo-div p {
+    margin: 10px 0;
+    text-align: start;
+    list-style-type: none;
+    color: rgb(61, 61, 61);
+  }
+.todo-div button {
+    justify-self: center;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: coral;
+    border: none;
+    color: white;
+    font-weight: 800;
+  }
+  .todo-div button:hover {
+    cursor: pointer;
+  }
