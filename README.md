@@ -1,3 +1,6 @@
+![](todo-app/Screenshot 2021-10-31 at 5.09.19 PM.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
