@@ -43,10 +43,10 @@ function App( ) {
       <header className="App-header">
         <h2>React Todo</h2>
         <TodoForm addTodo={addTodo}/>
-        <TodoList todos={todos} 
+      </header>
+      <TodoList todos={todos} 
         toggleComplete={toggleComplete}
         removeTodo={removeTodo}/>
-      </header>
     </div>
   )
 }

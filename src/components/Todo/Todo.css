@@ -2,27 +2,31 @@
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 3fr 1fr;
-    text-align: center;
-  }
+   
+    padding: 1em 1em 1em 2em;
+    background-color: white;
+}
+
 .todo-div p {
     margin: 10px 0;
     text-align: start;
     list-style-type: none;
-    color: rgb(61, 61, 61);
-  }
+    color:  #264653;
+}
 .todo-div button {
     justify-self: center;
     padding: 7px 10px;
     border-radius: 5px;
-    background-color: coral;
+    background-color:  #15c2ae;
     border: none;
     color: white;
     font-weight: 800;
-  }
-  .todo-div button:hover {
-    cursor: pointer;
-  }
+}
 .checkbox-custom {
-  width:15px;
-  height:15px;
+    height: 24px;
+    width: 24px;
+    border-radius: 5px;
+}
+.checkbox-custom::after{
+    color:#15c2ae;
 }
