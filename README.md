@@ -1,4 +1,4 @@
-![Screenshot](todo-app/Screenshot 2021-10-31 at 5.09.19 PM.png)
+![Screenshot](https://github.com/LasithaE/todo-app/Screenshot 2021-10-31 at 5.09.19 PM.png)
 
 
 # Getting Started with Create React App
