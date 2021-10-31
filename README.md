@@ -2,7 +2,6 @@
 
 
 # Getting Started with Create React App
-![Screenshot](https://github.com/LasithaE/todo-app/react-to-do.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
