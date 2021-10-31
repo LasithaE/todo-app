@@ -1,5 +1,4 @@
-import React,{useState} from 'react'
-import {v4} from 'uuid';
+import React,{useState} from 'react';
 import './TodoForm.css';
 function TodoForm({addTodo}) {
     const [todo, setTodo] = useState({
@@ -7,14 +6,13 @@ function TodoForm({addTodo}) {
         task: "",
         completed: false
     });
-    const uuid=v4()
     function handleTaskInputChange(e) {
         setTodo({...todo,task:e.target.value});
     }
     function handleSubmit(e){
         e.preventDefault();
         if (todo.task.trim()) {
-            addTodo({...todo,id:uuid}); 
+            addTodo({...todo,id:Math.floor(Math.random() * 100000)}); 
             setTodo({...todo,task:""});
         }
     }
