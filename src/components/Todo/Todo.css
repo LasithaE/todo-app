@@ -22,3 +22,7 @@
   .todo-div button:hover {
     cursor: pointer;
   }
+.checkbox-custom {
+  width:15px;
+  height:15px;
+}

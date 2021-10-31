@@ -41,7 +41,7 @@ function App( ) {
   return (
     <div className="App">
       <header className="App-header">
-        <p>React Todo</p>
+        <h2>React Todo</h2>
         <TodoForm addTodo={addTodo}/>
         <TodoList todos={todos} 
         toggleComplete={toggleComplete}
